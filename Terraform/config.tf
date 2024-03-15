@@ -23,7 +23,7 @@ resource "kubernetes_deployment" "test" {
       }
       spec {
         container {
-          image = "nodejs"
+          image = "pragnesh9789/node-js-app:latest"
           name  = "nodejs-container"
           port {
             container_port = 3000
