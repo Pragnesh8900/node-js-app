@@ -23,7 +23,7 @@ resource "kubernetes_deployment" "test" {
       }
       spec {
         container {
-          image = var.image_name:var.image_tag
+          image = "${var.image_name}:${var.image_tag}"
           name  = "nodejs-container"
           port {
             container_port = 3000
