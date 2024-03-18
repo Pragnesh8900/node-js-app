@@ -4,7 +4,7 @@ const os = require("os");
 const app = express();
 
 app.get('/', (req, res) => {
-	res.send("<h1>  Hi from Pragnesh.  </h1>");
+	res.send("<h1>  Hi from Pragnesh.</h1>");
 })
 
 const port = 3000;
